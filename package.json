@@ -1,0 +1,21 @@
+{
+  "name": "sit-washing-api",
+  "version": "1.0.0",
+  "description": "Simple API serving washing machine state from SiT ",
+  "main": "lib/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "sit",
+    "washing",
+    "trondheim"
+  ],
+  "author": "Håkon Ødegård Løvdal",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.1",
+    "request": "^2.58.0"
+  }
+}
